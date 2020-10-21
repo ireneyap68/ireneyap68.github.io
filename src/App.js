@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
+import {Element} from 'react-scroll';
 
 import {
   BrowserRouter as Router,
@@ -7,32 +8,31 @@ import {
   Link
 } from 'react-router-dom';
 
-import Homepage from './components/Homepage'
-import About from './components/About'
-import Blog from './components/Blog'
-import Project from './components/Project'
-import Weather from './components/Weather'
+import Homepage from './components/Homepage';
+import About from './components/About';
+import Skills from './components/Skills';
+import Project from './components/Project';
+import Weather from './components/Weather';
+import Navbar from './components/Navbar';
+import Header from './components/Header';
+import Title from './components/Title';
+
 
 function App() {
-  let testPosts = [
-    {
-      title: 'I love plants',
-      body: 'Especially the calatheas, but they don\'t love me back 😭'
-    },
-    {
-      title: 'Computers amirite?',
-      body: 'Dumb, just like me'
-    },
-    {
-      title: 'Gratitude is a key to happiness',
-      body: 'thanks pete'
-    }
-  ]
-  let [posts, setPosts] = useState(testPosts)
-
+  
   return (
     <Router>
     <div className="App">
+
+
+      <Navbar />
+
+      <Route exact path="/" component={Header} />
+
+
+
+
+
       <nav>
         <Link to="/">Homepage</Link>
         <Link to="/about">About</Link>
