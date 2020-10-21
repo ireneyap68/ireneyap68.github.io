@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
-import logo from '../logo.png';
+import logo from '../logo1.jpg';
 import {scroller} from 'react-scroll';
 import {ProductConsumer} from '../context/Context';
 
@@ -30,7 +30,7 @@ export default function Navbar() {
                     <div className="header-container">
                     <nav>
                     <div className="logoBtn">
-                        <Link to='/'  onClick={handleClose}  ><img src={logo}  onClick={()=>scrollToElement('Home')} alt="logo"/></Link>
+                        <Link to='/'  onClick={handleClose}  >PORTFOLIO | IRENE YAP | FULLSTACK SOFTWARE ENGINEER</Link>
                         <div className="btn" onClick={handleSidebar} >
                            <div  className="bar"></div>
                            <div className="bar"></div>
