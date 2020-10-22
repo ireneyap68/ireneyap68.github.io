@@ -25,6 +25,13 @@ export const Links=[
         scrolling:'Project',
 
     },
+    {
+        id:5,
+        link:"Weather",
+        path:'/weather',
+        scrolling:'Weather',
+
+    },
 
    
 ]
@@ -119,53 +126,33 @@ export const otherSkills=[
 export const projects=[
     {
         id:1,
-        extlink:'https://codito-portfolio.netlify.com/',
-        img:"/photos/portfolio-banner.jpg",
-        title:'React.js project',
-        btnTitle:"Portfolio",
-        cat:'React'
+        extlink:'https://ireneyap68.github.io/P1-Dice-Movement-Game/',
+        img:"/photos/p1.png",
+        title:'Mini Game App',
+        cat:'HTML/CSS/Javascript'
         
 
     },
     {   
         id:2,
-        extlink:'https://nnn.netlify.com',
-        img:"/photos/lti-banner.jpg",
-        title:'React.js project',
-        btnTitle:"Lti",
-        cat:'React'
+        extlink:'https://irene-horos-secret-note.herokuapp.com/',
+        img:"/photos/p2.png",
+        title:'Lifestyle App',
+        cat:'Node.js, PostgreSQL'
     },
     {   
         id:3,
-        extlink:'https://okelectrical.netlify.com/',
-        img:"/photos/ok-banner.jpg",
-        title:'Html, css, javascript project',
-        btnTitle:"okElectric",
-        cat:'Html-Css'
+        extlink:'https://exit-code-zero.herokuapp.com/',
+        img:"/photos/p3.png",
+        title:'Social Media App',
+        cat:'React, MongoDB'
     },
     {
         id:4,
-        extlink:'https://facebook-clone-65b8a.web.app/',
-        img:"/photos/fb-clone.jpg",
-        title:'React',
-        btnTitle:"fb-clone",
-        cat:'Html-Css'
-    },
-    {
-        id:5,
-        extlink:'https://boukouvalas.netlify.app/',
-        img:"/photos/bouk-banner.jpg",
-        title:'react',
-        btnTitle:"Bouk electrical",
-        cat:'React'
-    },
-    {
-        id:6,
-        extlink:'https://codito-ecom.netlify.app/',
-        img:"/photos/shopping-cart.jpg",
-        title:'react',
-        btnTitle:"shoes addict",
-        cat:'React'
+        extlink:'https://yicha.herokuapp.com',
+        img:"/photos/p4.png",
+        title:'Online e-commerce App',
+        cat:'Python, Django'
     },
   
 ]

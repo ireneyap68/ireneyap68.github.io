@@ -578,7 +578,7 @@ width: 120px;
 }
 
 .skills-web h4,
-.skills-electric h4{
+.skills-other h4{
   text-align: center;
   font-weight: 400;
   letter-spacing: 0.3rem;
@@ -933,7 +933,7 @@ overflow: hidden;
 
 
 
-  /* courses */
+  /* weather */
   .courses{
     padding:20px 10px;
   }
