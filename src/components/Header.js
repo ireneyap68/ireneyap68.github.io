@@ -1,5 +1,5 @@
 import React from 'react';
-import headerImg from '../images/power4.jpg' ;
+import headerImg from '../images/portfolio1.jpg' ;
 import Bounce from 'react-reveal/Bounce';
 import {ProductConsumer} from '../context/Context';
 
