@@ -13,7 +13,7 @@ export default function Skills() {
                     <Title title=" Skills" color={setClass?"white":"grey"} />
              <div className="skills-center">
                <div className="skills-web">
-                   <h4 className={setClass?"dark-mode-orange":""}>web development skills :</h4>
+                   <h4 className={setClass?"dark-mode-orange":""}>Software Dev skills :</h4>
                    {value.devSkills.map(item=>{
                        return(
                            <li key={item.id}  className={setClass?"dark-mode-lightWhite":""}>

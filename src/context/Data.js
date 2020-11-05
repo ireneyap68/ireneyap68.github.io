@@ -74,8 +74,8 @@ export const devSkills=[
     {
         id:6,
         title:"NODE JS",
-       percent:'thirty',
-       number:'30%'
+       percent:'eighty',
+       number:'80%'
     },
     {
         id:7,
@@ -88,6 +88,18 @@ export const devSkills=[
         title:"POSTGRE-SQL",
         percent: 'ninety',
         number:'90%'
+    },
+    {
+        id:9,
+        title:"MONGODB",
+        percent: 'eighty',
+        number:'80%'
+    },
+    {
+        id:10,
+        title:"DJANGO",
+        percent: 'seventy',
+        number:'70%'
     },
   
 ]
@@ -110,8 +122,8 @@ export const otherSkills=[
     {   
         id:3,
         title:"MARKETING",
-       percent:'ninety',
-       number:'90%'
+       percent:'eighty',
+       number:'80%'
     },
     {
         id:4,
@@ -169,7 +181,7 @@ export const languages=[
     {   
         id:2,
         title:"ENGLISH",
-        percent:'ninety',
+        percent:'seventy',
         number:'70%',
     },
     {   
@@ -181,7 +193,7 @@ export const languages=[
     {
         id:4,
         title:"THAI",
-       percent:'eighty',
+       percent:'fifty',
        number:'50%'
     },
   

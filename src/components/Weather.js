@@ -1,7 +1,7 @@
 import React, { useState} from 'react'
 import axios from 'axios'
-
 import WeatherResult from './WeatherResult'
+
 
 export default function Weather() {
     // TODDO: Have error state that set conditional rendering of an error component
@@ -24,8 +24,13 @@ export default function Weather() {
     // set sum state
     // conditionally render a weather result component
     return(
-        <div>
-            <h1>🌦Find Weather in your American Area</h1>
+        
+        <div class="jumbotron">
+            
+            
+            <h1 class="display-4">🌦❄️ Find Weather in your American Area ☀️⛈</h1>
+            
+            <div class="card text-center">
             {weather ? <WeatherResult weather={weather}/> : null}
             <p>Enter your zipcode to find current weather in your area! </p>
             <form onSubmit={handleSubmit}>
@@ -33,6 +38,8 @@ export default function Weather() {
                 <input type="text" id="zip" onChange={e => setZip(e.target.value)} />
                 <input type="submit" value="Find Weather" />
             </form>
+            </div> 
         </div>
+    
     )
 }

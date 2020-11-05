@@ -411,7 +411,7 @@ width: 120px;
   .about-logo img{
     height: 300px;
     display: block;
-    /* border-radius: 50%; */
+    border-radius: 50%;
    
   }
 
@@ -444,7 +444,7 @@ width: 120px;
   margin-bottom: 30px;
 }
 
-.skills-web h4, .skills-electric h4{
+.skills-web h4, .skills-other h4{
   margin: 10px;
 }
 
@@ -474,15 +474,11 @@ width: 120px;
   width:90%;
   animation: ninety 5s infinite ;
   
-
-
-  
- 
 }
 
 .bar .eighty{
   width:80%;
-  animation: eighty 5s;
+  animation: eighty 5s infinite;
 }
 
 .bar .seventy{
