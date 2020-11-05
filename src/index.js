@@ -4,16 +4,17 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter } from 'react-router-dom';
+import {HashRouter} from 'react-router-dom';
 import { ProductProvider } from './context/Context';
 
 ReactDOM.render(
-  <BrowserRouter>
+  <HashRouter>
     <ProductProvider>
       <React.StrictMode>
         <App />
       </React.StrictMode>
     </ProductProvider>
-  </BrowserRouter>
+  </HashRouter>
   ,
   document.getElementById('root')
 );
