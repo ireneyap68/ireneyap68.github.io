@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio-react-router/static/css/main.09149c08.chunk.css",
+    "main.js": "/portfolio-react-router/static/js/main.36ded5b9.chunk.js",
+    "main.js.map": "/portfolio-react-router/static/js/main.36ded5b9.chunk.js.map",
+    "runtime-main.js": "/portfolio-react-router/static/js/runtime-main.a11495df.js",
+    "runtime-main.js.map": "/portfolio-react-router/static/js/runtime-main.a11495df.js.map",
+    "static/js/2.6a8922bf.chunk.js": "/portfolio-react-router/static/js/2.6a8922bf.chunk.js",
+    "static/js/2.6a8922bf.chunk.js.map": "/portfolio-react-router/static/js/2.6a8922bf.chunk.js.map",
+    "index.html": "/portfolio-react-router/index.html",
+    "precache-manifest.32a114195b1631d4ef2749850d70cd91.js": "/portfolio-react-router/precache-manifest.32a114195b1631d4ef2749850d70cd91.js",
+    "service-worker.js": "/portfolio-react-router/service-worker.js",
+    "static/css/main.09149c08.chunk.css.map": "/portfolio-react-router/static/css/main.09149c08.chunk.css.map",
+    "static/js/2.6a8922bf.chunk.js.LICENSE.txt": "/portfolio-react-router/static/js/2.6a8922bf.chunk.js.LICENSE.txt",
+    "static/media/aboutLogo.JPG": "/portfolio-react-router/static/media/aboutLogo.1cc4294e.JPG",
+    "static/media/portfolio1.jpg": "/portfolio-react-router/static/media/portfolio1.e1db45f0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a11495df.js",
+    "static/js/2.6a8922bf.chunk.js",
+    "static/css/main.09149c08.chunk.css",
+    "static/js/main.36ded5b9.chunk.js"
+  ]
+}
