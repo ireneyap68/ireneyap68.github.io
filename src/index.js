@@ -8,13 +8,13 @@ import {HashRouter} from 'react-router-dom';
 import { ProductProvider } from './context/Context';
 
 ReactDOM.render(
-  <HashRouter>
+  <BrowserRouter>
     <ProductProvider>
       <React.StrictMode>
         <App />
       </React.StrictMode>
     </ProductProvider>
-  </HashRouter>
+  </BrowserRouter>
   ,
   document.getElementById('root')
 );
